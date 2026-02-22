@@ -1,5 +1,3 @@
-import { redirect } from "next/navigation";
-
 export default function Home() {
-  redirect("/focus");
+  return <div>Home</div>;
 }
